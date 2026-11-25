@@ -155,6 +155,9 @@ h2 { font: 800 clamp(2rem, 4.2vw, 3rem)/1.08 var(--f); letter-spacing: -.015em; 
 .final .gita { width: 170px; }
 .final .signup .fields { gap: 12px; }
 .final .status.error { color: var(--anaar); }
+.final .chip span { background: var(--jamun); }
+.final .chip input:focus-visible + span { outline-color: var(--kajal); }
+.final .choices { justify-content: center; }
 .final .btn { background: var(--jamun); color: var(--malai); }
 .final .btn:hover { background: var(--baingan); }
 .hills { display: block; width: 100%; height: clamp(220px, 30vw, 420px); }
@@ -301,6 +304,13 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
               <input id="email-2" name="email" type="email" autocomplete="email" placeholder="you@email.com" required>
               <button class="btn" type="submit">Join the waitlist</button>
             </div>
+            <fieldset class="choices">
+              <legend class="hp">Your phone</legend>
+              <span class="label" aria-hidden="true">I'm on</span>
+              <label class="chip"><input type="radio" name="platform" value="iphone"><span>iPhone</span></label>
+              <label class="chip"><input type="radio" name="platform" value="android"><span>Android</span></label>
+              <label class="chip"><input type="radio" name="platform" value="both"><span>Both</span></label>
+            </fieldset>
             <div class="row"><label class="hp" for="interest-2">What brings you here?</label><select id="interest-2" name="interest">
               <option value="">What brings you here? (optional)</option>
               <option value="curious">Curious about the Gita</option>

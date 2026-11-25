@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 40" width="96" height="40">
-<!-- Toran (doorway bunting): rani, haldi, marigold flags on an ink cord, 96 x 40 tile. Only for celebrations, never on hard moments. -->
-<path d="M0 4 Q48 14 96 4" fill="none" stroke="#2A1F7A" stroke-width="3"/>
-<path d="M6 6 L26 9 L16 34 Z" fill="#F0287C" stroke="#2A1F7A" stroke-width="3" stroke-linejoin="round"/>
-<path d="M38 10 L58 10 L48 36 Z" fill="#FFC93C" stroke="#2A1F7A" stroke-width="3" stroke-linejoin="round"/>
-<path d="M70 9 L90 6 L80 34 Z" fill="#FF7A1A" stroke="#2A1F7A" stroke-width="3" stroke-linejoin="round"/>
-</svg>
